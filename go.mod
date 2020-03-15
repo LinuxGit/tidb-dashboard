@@ -1,9 +1,8 @@
-module github.com/pingcap-incubator/tidb-dashboard
+module github.com/LinuxGit/tidb-dashboard
 
 go 1.13
 
 require (
-	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
 	github.com/appleboy/gin-jwt/v2 v2.6.3
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/elazarl/go-bindata-assetfs v1.0.0
@@ -15,6 +14,7 @@ require (
 	github.com/jinzhu/gorm v1.9.12
 	github.com/joho/godotenv v1.3.0
 	github.com/joomcode/errorx v1.0.1
+	github.com/pingcap-incubator/tidb-dashboard v0.0.0-20200313094008-1a9cde30432c
 	github.com/pingcap/check v0.0.0-20191216031241-8a5a85928f12
 	github.com/pingcap/errors v0.11.5-0.20190809092503-95897b64e011
 	github.com/pingcap/kvproto v0.0.0-20200214064158-62d31900d88e
