@@ -21,7 +21,7 @@ import (
 
 	"go.etcd.io/etcd/clientv3"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/pd"
+	"github.com/LinuxGit/tidb-dashboard/pkg/pd"
 )
 
 // FIXME: This is duplicated with the one in KeyVis.

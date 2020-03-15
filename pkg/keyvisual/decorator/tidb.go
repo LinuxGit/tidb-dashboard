@@ -21,9 +21,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/codec"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/config"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/keyvisual/region"
+	"github.com/LinuxGit/tidb-dashboard/pkg/codec"
+	"github.com/LinuxGit/tidb-dashboard/pkg/config"
+	"github.com/LinuxGit/tidb-dashboard/pkg/keyvisual/region"
 )
 
 type tableDetail struct {

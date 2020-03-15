@@ -24,7 +24,7 @@ import (
 	"google.golang.org/grpc/backoff"
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/config"
+	"github.com/LinuxGit/tidb-dashboard/pkg/config"
 )
 
 const (

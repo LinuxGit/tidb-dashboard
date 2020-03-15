@@ -23,7 +23,7 @@ import (
 	"os/exec"
 	"strconv"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/apiserver/utils"
+	"github.com/LinuxGit/tidb-dashboard/pkg/apiserver/utils"
 )
 
 func profileAndWriteSVG(ctx context.Context, target *utils.RequestTargetNode, fileNameWithoutExt string, profileDurationSecs uint, httpClient *http.Client, tls bool) (string, error) {

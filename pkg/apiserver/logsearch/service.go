@@ -24,10 +24,10 @@ import (
 	"github.com/pingcap/log"
 	"go.uber.org/zap"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/apiserver/user"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/apiserver/utils"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/config"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/dbstore"
+	"github.com/LinuxGit/tidb-dashboard/pkg/apiserver/user"
+	"github.com/LinuxGit/tidb-dashboard/pkg/apiserver/utils"
+	"github.com/LinuxGit/tidb-dashboard/pkg/config"
+	"github.com/LinuxGit/tidb-dashboard/pkg/dbstore"
 )
 
 type Service struct {

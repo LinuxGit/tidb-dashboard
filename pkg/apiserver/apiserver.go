@@ -18,26 +18,26 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/pd"
+	"github.com/LinuxGit/tidb-dashboard/pkg/pd"
 
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
 
 	cors "github.com/rs/cors/wrapper/gin"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/apiserver/clusterinfo"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/apiserver/diagnose"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/apiserver/foo"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/apiserver/info"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/apiserver/logsearch"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/apiserver/profiling"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/apiserver/statement"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/apiserver/user"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/apiserver/utils"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/config"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/dbstore"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/keyvisual"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/tidb"
+	"github.com/LinuxGit/tidb-dashboard/pkg/apiserver/clusterinfo"
+	"github.com/LinuxGit/tidb-dashboard/pkg/apiserver/diagnose"
+	"github.com/LinuxGit/tidb-dashboard/pkg/apiserver/foo"
+	"github.com/LinuxGit/tidb-dashboard/pkg/apiserver/info"
+	"github.com/LinuxGit/tidb-dashboard/pkg/apiserver/logsearch"
+	"github.com/LinuxGit/tidb-dashboard/pkg/apiserver/profiling"
+	"github.com/LinuxGit/tidb-dashboard/pkg/apiserver/statement"
+	"github.com/LinuxGit/tidb-dashboard/pkg/apiserver/user"
+	"github.com/LinuxGit/tidb-dashboard/pkg/apiserver/utils"
+	"github.com/LinuxGit/tidb-dashboard/pkg/config"
+	"github.com/LinuxGit/tidb-dashboard/pkg/dbstore"
+	"github.com/LinuxGit/tidb-dashboard/pkg/keyvisual"
+	"github.com/LinuxGit/tidb-dashboard/pkg/tidb"
 )
 
 var once sync.Once

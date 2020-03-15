@@ -26,15 +26,15 @@ import (
 	"github.com/pingcap/log"
 	"go.uber.org/zap"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/apiserver/user"
+	"github.com/LinuxGit/tidb-dashboard/pkg/apiserver/user"
 	// Import for swag go doc
-	_ "github.com/pingcap-incubator/tidb-dashboard/pkg/apiserver/utils"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/config"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/keyvisual/decorator"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/keyvisual/input"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/keyvisual/matrix"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/keyvisual/region"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/keyvisual/storage"
+	_ "github.com/LinuxGit/tidb-dashboard/pkg/apiserver/utils"
+	"github.com/LinuxGit/tidb-dashboard/pkg/config"
+	"github.com/LinuxGit/tidb-dashboard/pkg/keyvisual/decorator"
+	"github.com/LinuxGit/tidb-dashboard/pkg/keyvisual/input"
+	"github.com/LinuxGit/tidb-dashboard/pkg/keyvisual/matrix"
+	"github.com/LinuxGit/tidb-dashboard/pkg/keyvisual/region"
+	"github.com/LinuxGit/tidb-dashboard/pkg/keyvisual/storage"
 )
 
 const (

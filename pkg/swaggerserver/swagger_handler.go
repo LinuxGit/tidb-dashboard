@@ -17,7 +17,7 @@ package swaggerserver
 import (
 	"net/http"
 
-	_ "github.com/pingcap-incubator/tidb-dashboard/docs"
+	_ "github.com/LinuxGit/tidb-dashboard/docs"
 	httpSwagger "github.com/swaggo/http-swagger"
 )
 

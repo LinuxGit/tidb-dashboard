@@ -20,7 +20,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/keyvisual/decorator"
+	"github.com/LinuxGit/tidb-dashboard/pkg/keyvisual/decorator"
 )
 
 // TODO:

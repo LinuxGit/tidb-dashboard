@@ -23,7 +23,7 @@ import (
 	"go.etcd.io/etcd/clientv3"
 	"go.uber.org/zap"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/pd"
+	"github.com/LinuxGit/tidb-dashboard/pkg/pd"
 )
 
 type serverInfo struct {

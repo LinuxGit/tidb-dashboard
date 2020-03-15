@@ -16,7 +16,7 @@ package clusterinfo
 import (
 	"context"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/utils/clusterinfo"
+	"github.com/LinuxGit/tidb-dashboard/pkg/utils/clusterinfo"
 )
 
 type ClusterInfo struct {

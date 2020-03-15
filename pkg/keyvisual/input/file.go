@@ -20,7 +20,7 @@ import (
 	"github.com/pingcap/log"
 	"go.uber.org/zap"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/keyvisual/storage"
+	"github.com/LinuxGit/tidb-dashboard/pkg/keyvisual/storage"
 )
 
 type fileInput struct {

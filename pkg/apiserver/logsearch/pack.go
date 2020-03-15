@@ -25,7 +25,7 @@ import (
 	"github.com/pingcap/log"
 	"go.uber.org/zap"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/apiserver/utils"
+	"github.com/LinuxGit/tidb-dashboard/pkg/apiserver/utils"
 )
 
 func packLogsAsTarball(tasks []*TaskModel, w io.Writer) error {

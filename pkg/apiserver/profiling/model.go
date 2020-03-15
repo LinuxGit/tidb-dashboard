@@ -19,8 +19,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/apiserver/utils"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/dbstore"
+	"github.com/LinuxGit/tidb-dashboard/pkg/apiserver/utils"
+	"github.com/LinuxGit/tidb-dashboard/pkg/dbstore"
 )
 
 // TaskState is used to represent the task/task group state.

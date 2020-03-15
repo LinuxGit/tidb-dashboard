@@ -14,7 +14,7 @@
 package diagnose
 
 import (
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/utils"
+	"github.com/LinuxGit/tidb-dashboard/pkg/utils"
 )
 
 var TemplateInfos = []utils.TemplateInfo{

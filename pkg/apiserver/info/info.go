@@ -18,12 +18,12 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/apiserver/user"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/apiserver/utils"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/config"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/dbstore"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/tidb"
-	utils2 "github.com/pingcap-incubator/tidb-dashboard/pkg/utils"
+	"github.com/LinuxGit/tidb-dashboard/pkg/apiserver/user"
+	"github.com/LinuxGit/tidb-dashboard/pkg/apiserver/utils"
+	"github.com/LinuxGit/tidb-dashboard/pkg/config"
+	"github.com/LinuxGit/tidb-dashboard/pkg/dbstore"
+	"github.com/LinuxGit/tidb-dashboard/pkg/tidb"
+	utils2 "github.com/LinuxGit/tidb-dashboard/pkg/utils"
 )
 
 type Service struct {

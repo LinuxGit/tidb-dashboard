@@ -19,7 +19,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/config"
+	"github.com/LinuxGit/tidb-dashboard/pkg/config"
 )
 
 const (

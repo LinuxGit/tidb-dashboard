@@ -16,7 +16,7 @@ package matrix
 import (
 	"encoding/hex"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/keyvisual/decorator"
+	"github.com/LinuxGit/tidb-dashboard/pkg/keyvisual/decorator"
 )
 
 type splitTag int

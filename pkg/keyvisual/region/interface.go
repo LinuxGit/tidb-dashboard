@@ -14,8 +14,8 @@
 package region
 
 import (
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/dbstore"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/pd"
+	"github.com/LinuxGit/tidb-dashboard/pkg/dbstore"
+	"github.com/LinuxGit/tidb-dashboard/pkg/pd"
 )
 
 type RegionsInfo interface {

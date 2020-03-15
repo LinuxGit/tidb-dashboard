@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/keyvisual/matrix"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/keyvisual/region"
+	"github.com/LinuxGit/tidb-dashboard/pkg/keyvisual/matrix"
+	"github.com/LinuxGit/tidb-dashboard/pkg/keyvisual/region"
 )
 
 // LayerConfig is the configuration of layerStat.

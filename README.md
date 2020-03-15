@@ -13,7 +13,7 @@ it from source (see next section).
 
 ## Contributing & Developing
 
-If you're interested in contributing to TiDB Dashboard, checkout our [help wanted issues](https://github.com/pingcap-incubator/tidb-dashboard/issues?q=is%3Aopen+label%3Astatus%2Fhelp-wanted+sort%3Aupdated-desc)
+If you're interested in contributing to TiDB Dashboard, checkout our [help wanted issues](https://github.com/LinuxGit/tidb-dashboard/issues?q=is%3Aopen+label%3Astatus%2Fhelp-wanted+sort%3Aupdated-desc)
 for a list, in which we have also marked the difficulty level. We have prepared many suitable tasks.
 
 For a detailed step-by-step contributing guide, or want to build TiDB Dashboard from source,
@@ -25,7 +25,7 @@ TiDB Dashboard is also a project of TiDB Usability Challenge (UCP), where you ca
 contributing code!
 
 - Learn more about TiDB Usability Challenge (UCP): [Chinese](https://pingcap.com/community-cn/tidb-usability-challenge/), [English](https://pingcap.com/community/tidb-usability-challenge/)
-- See [TiDB Dashboard UCP issues](https://github.com/pingcap-incubator/tidb-dashboard/projects/17) that you can work with.
+- See [TiDB Dashboard UCP issues](https://github.com/LinuxGit/tidb-dashboard/projects/17) that you can work with.
 
 ### Ask for Help
 

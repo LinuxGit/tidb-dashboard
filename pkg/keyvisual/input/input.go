@@ -18,8 +18,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/keyvisual/region"
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/keyvisual/storage"
+	"github.com/LinuxGit/tidb-dashboard/pkg/keyvisual/region"
+	"github.com/LinuxGit/tidb-dashboard/pkg/keyvisual/storage"
 )
 
 // StatInput is the interface that different data inputs need to implement.

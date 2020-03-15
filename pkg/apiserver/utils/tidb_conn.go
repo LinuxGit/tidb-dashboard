@@ -18,7 +18,7 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/joomcode/errorx"
 
-	"github.com/pingcap-incubator/tidb-dashboard/pkg/tidb"
+	"github.com/LinuxGit/tidb-dashboard/pkg/tidb"
 )
 
 const (
