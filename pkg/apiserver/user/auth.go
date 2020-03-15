@@ -94,6 +94,7 @@ func NewAuthService(tidbForwarder *tidb.Forwarder) *AuthService {
 		copy(secret[:], secretStr)
 	default:
 		log.Warn("DASHBOARD_SESSION_SECRET does not meet the 32 byte size requirement, ignored")
+		log.Warn("DASHBOARD_SESSION_SECRET", zap.Int("len", len(secretStr)), zap.Any("value", []byte(secretStr)), zap.String("string value", secretStr))
 		secret = cryptopasta.NewEncryptionKey()
 	}
 
